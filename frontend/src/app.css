@@ -1,0 +1,38 @@
+.kont{
+    height:100%;
+    margin:0px;
+    padding:0px;
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+.ap{
+    height: 100%;
+    margin: 0px;
+    padding:0px;
+   
+}
+*{
+    margin:0px
+}
+
+.sadrzaj{
+    margin-left: 250px;
+    margin:300px;
+   
+}
+
+.nesto{
+    border:1px solid red;
+}
+
+@media only screen and (max-width: 600px) {
+   .kont{
+       display:flex;
+       flex-direction: column;
+      
+       overflow:auto;
+     
+   }
+  }

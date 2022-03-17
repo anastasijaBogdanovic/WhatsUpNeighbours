@@ -1,0 +1,40 @@
+.predlozi{
+.predloziKont{
+    width: inherit;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-left: 100px;
+    margin-right: 100px;
+  
+   
+}
+
+
+
+    margin-left: 250px;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v894-kul-06.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=5113e092be7577880aad580a1aa27f25');
+    overflow: auto;
+    overflow-x: hidden;
+
+    @media only screen and (max-width: 600px) {
+      
+    
+        margin-left: 0px;
+        width: 100%;
+        overflow:initial;
+       background-attachment: local;
+       height:auto;
+       font-size: 3vh;
+       padding:0px;
+       .predloziKont{
+     grid-template-columns: 100%;
+    }
+}
+
+    
+
+}

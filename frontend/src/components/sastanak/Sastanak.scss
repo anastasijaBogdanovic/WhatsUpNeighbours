@@ -1,0 +1,43 @@
+.sastanak{
+    
+    height: 35%;
+    color:white;
+    width:100%;
+    margin:30px;
+    margin-left: 0px;
+
+
+
+   
+  
+}
+
+.sastanakHeder, .sastanakFuter{
+   
+    background-color:#464EB8 !important;
+    opacity: 1;
+}
+
+.sastanakBody{
+    background-color: #585ac9;
+    min-height: 100px !important;
+
+    @media only screen and (max-width: 600px){
+        min-height: 0px !important;
+       
+        height:fit-content !important;
+       
+        
+    }
+
+
+}
+
+.sastanakFuter{
+    display: flex;
+    justify-content: space-between;
+}
+
+.lblSastanak{
+    margin-left: 10px;
+}

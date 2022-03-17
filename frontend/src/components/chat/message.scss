@@ -1,0 +1,62 @@
+.kontejnerMessage{
+
+    display: flex;
+    flex-direction: column;
+    margin-top:10px;
+    margin-bottom: 10px;
+    max-width: 100%;
+  
+  
+    
+    
+.poruka{
+    border-radius: 10px;
+    background-color: purple;
+    color:white;
+   padding: 10px;
+   font-size: large;
+   width: fit-content;
+   max-width: 100%;
+   
+   overflow-wrap: break-word;
+
+   @media only screen and (max-width: 600px) {
+    
+    margin-left: 0px;
+    
+    
+   font-size: 3vh;
+  
+  
+   }
+}
+
+
+.mojaPoruka{
+    background-color: rgb(53, 101, 173);
+    @media only screen and (max-width: 600px) {
+    
+       
+       
+    }
+    
+}
+
+
+
+
+   
+
+
+.futer{
+    font-weight: bold;
+    align-self: inherit;
+    @media only screen and (max-width: 600px) {
+    
+       font-size: small;
+    }
+}
+}
+.mojaPoruka{
+    align-self: flex-end;
+}

@@ -1,0 +1,71 @@
+.karticaPredlog{
+ box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+ margin:20px;
+ margin-left:100px;
+ margin-right: 100px;
+ min-width: 350px !important;
+ max-width: 350px !important;
+
+ @media only screen and (max-width: 600px){
+     width:50% !important;
+     margin: 3px;
+     margin-left: 5px;
+     
+    
+ }
+
+
+
+.karticaBody{
+    min-height: 200px !important;
+}
+.futer{
+    display: flex;
+    padding:0px !important;
+    
+    margin:0px;
+    justify-content: stretch;
+}
+
+.prviDiv{
+   
+    border-right: 1px solid  #dbdad6;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin:0px;
+    background-color: #b3ffb3;
+    flex-grow: 1;
+   
+}
+
+.divProtiv{
+    background-color: #ffcccb;
+    flex-grow: 1;
+   
+}
+
+.divProtiv:hover{
+    cursor:pointer;
+    background-color:darken($color:#ffcccb, $amount: 10%);
+   
+}
+.prviDiv:hover{
+    cursor:pointer;
+    background-color: darken(#b3ffb3,10%);
+}
+
+.glasanje{
+    padding:10px;
+}
+
+
+.like{
+    color:green;
+}
+
+.dislike{
+    color:red;
+}
+}
+
+

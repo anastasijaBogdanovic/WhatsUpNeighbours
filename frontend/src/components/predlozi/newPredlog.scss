@@ -1,0 +1,35 @@
+.formaNewPredlog{
+    width:100%;
+   
+    padding:20px;
+    margin: 0px;
+    padding-left: 95px;
+    @media only screen and (max-width: 600px){
+        margin:0px;
+        padding:10%;
+    }
+  
+
+
+Form{
+    width: 100%;
+    margin: 0px ;
+    margin-top: 20px;
+    padding:0px;
+    width: 50%;
+    color:white;
+
+    @media only screen and (max-width: 600px){
+        width: 90%;
+        padding: 0px;
+        margin: 0px;
+    }
+}
+textarea{
+    display: block;
+    width: 100%;
+}
+}
+
+
+

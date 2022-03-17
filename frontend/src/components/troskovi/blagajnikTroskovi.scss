@@ -1,0 +1,117 @@
+.blagajnik, .mojiRacuni{
+    margin-left: 250px;
+    width: 100%;
+    background-image: url('https://www.missprint.co.uk/oimgnn/images_products/l_tropics-foliage-wallpaper-80q.jpg');
+
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+    padding-top: 3%;
+    overflow: auto;
+    h2{
+        font-weight: bold;
+        
+    }
+    td,th{
+        width: 25%;
+    }
+    .racuni{
+        background:white;
+        width: 70%;
+        
+        margin-top: 0px;
+        box-shadow: 4px 4px 8px 4px rgba(0,0,0,0.2);
+        margin-bottom: 10px;
+        padding:10px;
+        h4,h5{
+            text-align: center;
+            padding:2%;
+        }
+    }
+    .forme{
+       
+        width: 90%;
+        display: flex;
+        margin: 5%;
+        margin-left: 5%;
+        justify-content: space-between;
+    }
+
+    .pogledaj{
+        background: white;
+        width: 45%;
+        padding:3%;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        h5{
+            text-align: center;
+            padding-bottom: 2%;
+        }
+        div{
+
+        display: flex;
+        justify-content: space-around;
+        height: 20%;
+        margin-top: 10%;
+        input{
+            width: 30%;
+            border: none;
+            box-shadow:  0 4px 8px 0 rgba(0,0,0,0.2);
+        }
+        }
+    }
+
+    .dodajTroskove{
+        background: white;
+        font-size: 16px;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        border-radius: 5px;
+        width: 45%;
+        padding: 2%;
+        h5{
+            padding-bottom: 1%;
+        }
+        label{
+            font-weight: bold;
+            width: 30%;
+        }
+        input, select{
+            width: 30%;
+            border: none;
+            box-shadow:  0 4px 8px 0 rgba(0,0,0,0.2);
+            padding:1%;
+        }
+        .dugme{
+            margin-left: 30%;
+            width:30%;
+        }
+    }
+}
+
+.mojiRacuni{
+    padding:50px;
+    .neplaceni{
+        width:65%;
+    }
+
+    .status{
+        text-align: center;
+        background-color: white;
+        padding:1%;
+        box-shadow:  0 4px 8px 0 rgba(0,0,0,0.2);
+    }
+
+    h5{
+        background-color:darkgray;
+        margin:0px;
+        margin-top: 2%;
+        width: inherit;
+        padding:2px;
+    }
+    caption{
+        caption-side: top;
+        font-size: 20px;
+        color:black;
+        font-weight: bold;
+    }
+}

@@ -1,0 +1,19 @@
+.dugme{
+    border-radius: 7px;
+    background-color: royalblue;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+
+
+.dugme:hover{
+    cursor: pointer;
+    background-color: lighten(royalblue,20%);
+}
+
+
+

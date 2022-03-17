@@ -1,0 +1,124 @@
+.sidebar{
+    width: 250px;
+    position: -webkit-sticky;
+    position: sticky;
+  
+    top: 0;
+    height:100vh;
+    overflow: auto;
+   background-color: #343a40;
+   padding-top: 25px;
+   margin-top: 40px;
+  
+    
+}
+
+
+
+.sidebar1{
+    width:250px;
+    height:100%;
+    position: fixed;
+    z-index: 1;
+    top:0;
+    left:0;
+    background-color: #343a40;
+    padding-top: 10px;
+
+    @media only screen and (max-width: 600px) {
+        position: relative;
+        width: 100%;
+        font-size:3vh;
+        z-index: auto;
+        height: fit-content;
+
+        .odjava{
+            margin-top: 5%;
+            margin-bottom: 5%;
+        }
+        .logo{
+            font-size: 8vh;
+        }
+
+      
+       }
+
+    h5{
+        text-align: center;
+        color:rgb(62, 164, 223);
+        padding:10px;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+        
+    }
+
+   
+    label{
+        color:cornflowerblue;
+        text-align: center;
+        display: block;
+        font-style: italic;
+
+    }
+    
+    .profil:hover{
+        background-color: #6c757d;
+        cursor: pointer;
+
+    }
+    label:hover{
+        cursor: pointer;
+    }
+   
+    
+}
+html,body{
+    height:100vh;
+    
+    
+    margin: 0px;
+    padding:0px;
+}
+#root{
+    height: 100%;
+   
+}
+
+.logo{
+    margin: 0px;
+    
+    padding: 0px ;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: 'Bowlby One SC', cursive;
+    color:#52CC7A !important;
+    margin-bottom: 15px;
+    
+}
+.activeLink{
+    color:green !important;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: green;
+    text-decoration: underline;
+    text-decoration-color: brown;
+    
+}
+
+.odjava{
+   
+    color:white;
+    width:50%;
+    border: 1px solid white;
+    margin-top: 55%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 5px;
+    padding:10px;
+}
+.odjava:hover{
+    background-color:lighten( #343a40, 10%) ;
+    cursor:pointer;
+}

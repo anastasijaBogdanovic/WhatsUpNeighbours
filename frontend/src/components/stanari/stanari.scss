@@ -1,0 +1,72 @@
+.stanariKont{
+.zaglavlje{
+    display:flex;
+    justify-content: space-between;
+    margin:10px;
+    font-weight: bold;
+}
+
+
+    width: 100%;
+    padding:80px;
+    margin-left: 250px;
+    
+    padding-top: 70px;
+    padding-left: 80px;
+    background-image: url("https://www.bellacor.com/media.bellacor.com/images/1500/209301MK1135.jpg");
+
+
+.sort label{
+
+    margin-right: 10px;
+
+}
+
+.filter label{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.ikonica + label{
+    margin-left: 1px;
+  
+}
+
+.ikonicaFilter{
+    font-size:35px;
+    margin-right: 0px;
+    padding-right: 2px;
+    color:grey;
+    font-weight: normal;
+}
+
+.zaglavlje button{
+    background-color: #C62828;
+    border:none;
+    color:white;
+    padding: 22px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 7px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.zaglavlje button:hover{
+    background-color: darken(#C62828,10%);
+}
+
+@media only screen and (max-width: 600px) {
+      
+    
+    margin-left: 0px;
+    width: 50%;
+    overflow:initial;
+   background-attachment: local;
+   height:auto;
+   font-size: 3vh;
+   padding:0px;
+   .predloziKont{
+ grid-template-columns: 100%;
+}
+}
+}

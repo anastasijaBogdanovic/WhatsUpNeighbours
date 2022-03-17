@@ -1,0 +1,35 @@
+.sastanci{
+    background-image: url('https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F23%2F2012%2F08%2F02%2Fenergetic2.jpg');
+    height:100%;
+    padding:30px;
+    margin-left: 250px;
+    width: 100%;
+
+    .doubleUp{
+        margin: auto;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .doubleUp:hover{
+        cursor: pointer;
+        font-weight: bolder;
+    }
+
+    @media only screen and (max-width: 600px) {
+    
+        margin-left: 0px;
+        width: 100%;
+        overflow:initial;
+       background-attachment: local;
+       height:auto;
+
+       .dugmeSastanak{
+           width: 50%;
+           margin:50%;
+       }
+       
+    
+   }
+
+
+}
